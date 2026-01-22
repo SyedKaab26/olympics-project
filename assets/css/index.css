@@ -1,0 +1,171 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    background: #0b1c2d !important;
+    height: 70px;
+}
+
+.navbar-brand img {
+    height: 45px;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    margin-right: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-link:hover {
+    color: #f5c518 !important;
+}
+
+/* Sign In Button */
+.btn-signin {
+    background: #f5c518;
+    color: #000 !important;
+    border-radius: 25px;
+    padding: 8px 22px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.btn-signin:hover {
+    background: #ffd84d;
+    color: #000 !important;
+}
+
+/* ================= CAROUSEL ================= */
+
+.carousel-item {
+    height: 85vh;
+    min-height: 400px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.55);
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.carousel-caption h5 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.carousel-caption p {
+    font-size: 16px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:768px) {
+    .carousel-item {
+        height: 60vh;
+    }
+
+    .carousel-caption h5 {
+        font-size: 22px;
+    }
+
+    .btn-signin {
+        margin-top: 10px;
+        display: inline-block;
+    }
+}
+
+
+.about-us h2 {
+    font-weight: 700;
+}
+
+.about-us p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.about-us .btn {
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+
+.hero-about {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-about h1 {
+    font-size: 3rem;
+}
+
+.hero-about p {
+    font-size: 1.25rem;
+}
+
+.breadcrumb {
+    background: rgba(0,0,0,0.5); /* semi-transparent dark background */
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.breadcrumb-item a {
+    color: #fff;
+}
+
+.breadcrumb-item a:hover {
+    color: #f5c518;
+}
+
+.breadcrumb-item.active {
+    color: #f5c518;
+    font-weight: 600;
+}
+
+
+
+.footer {
+    background-color: #0b1c2d;
+    color: #fff;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover {
+    color: #f5c518;
+    text-decoration: none;
+}
+
+.footer .text-warning {
+    color: #f5c518 !important;
+}
+
+.footer i {
+    margin-right: 10px;
+}
+
+.footer hr {
+    border-top: 1px solid #f5c518;
+}
